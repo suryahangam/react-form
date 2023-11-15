@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Activity Week 7: User Profile Form for a Social Media Pla4orm
+Imagine you are building a user profile form for a new social media pla6orm
+called "Connec9ve." This pla6orm focuses on connec9ng people with similar
+interests. Users are encouraged to fill out their profiles with relevant
+informa9on to enhance their networking experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## User Profile Form Requirements:
+### Name and Email:
+Users should provide their name and email address.
+### Subscrip3on:
+Include an op9on for users to subscribe to Connec9ve’s newsleCer for updates
+and new features.
+### Interests:
+Users can select their interests from a predefined list of op9ons (e.g.,
+Technology, Travel, Music).
+### Bio:
+Allow users to write a short bio about themselves. Provide a text area for this
+purpose.
+### Profile Picture:
+Users can upload a profile picture to personalize their profiles.
+………………………………………………………………………………………………………………………….
+## Instruc5ons for the User:
+### Name and Email:
+Fill in your name and email in the respec9ve fields.
+### Subscrip3on:
+Check the "Subscribe" checkbox if you want to receive Connec9ve’s newsleCer.
+### Interests:
+Choose one or more interests from the dropdown list.
+### Bio:
+Write a short bio about yourself in the provided text area.
+Profile Picture:
+Click the "Choose File" buCon to upload a profile picture.
+Ac5vity:
+1. Create a React app using the provided scenario.
+2. Use the components UserProfileForm, Checkbox, Dropdown, TextArea,
+and ImageUpload to build the user profile form.
+3. Implement the logic to handle user input and manage the form state.
+4. U9lize the useEffect hook in UserProfileForm to log the form data when
+it changes.
