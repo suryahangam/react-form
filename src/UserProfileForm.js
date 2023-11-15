@@ -67,9 +67,9 @@ const UserProfileForm = () => {
         value={interests}
         onChange={(e) => handleInterestChange(Array.from(e.target.selectedOptions, (option) => option.value))}
       >
-        <option value="Programming">Programming</option>
-        <option value="Dance">Dance</option>
-        <option value="Sport">Sport</option>
+        <option value="Reading">Reading</option>
+        <option value="Travelling">Travelling</option>
+        <option value="Singing">Singing</option>
       </select>
 
       <textarea
